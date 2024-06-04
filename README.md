@@ -29,3 +29,19 @@ Other startup courses will tell you what to do on a high level. Athena.vc shows 
 
 <br/>
 <a href="https://www.evernote.com/shard/s514/client/snv?isnewsnv=true&noteGuid=f6b58f15-e295-3c4b-6c13-14875970ce53&noteKey=H0pqLWzczpRTbAQOI36Hvb1cP5H-VyODVEq348EDi-Xm4E5Zh5-TMYV1mQ&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs514%2Fsh%2Ff6b58f15-e295-3c4b-6c13-14875970ce53%2FH0pqLWzczpRTbAQOI36Hvb1cP5H-VyODVEq348EDi-Xm4E5Zh5-TMYV1mQ&title=DRAFT%2Bstartup%2Bcurriculum">View the curriculum</a>
+
+---
+
+# How to install?
+
+```sh-session
+$ npm install -g athena
+```
+
+# Usage
+
+<p align="center"><img src="/demo.gif?raw=true"/></p>
+
+---
+
+**</>** with **<3** by **Ian Vizarra**
