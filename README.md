@@ -2,7 +2,7 @@
 
 We're helping 20 coders launch their first company with 12 months of mentorship from successful entrepreneurs and $10,000-$50,000 USD in funding
 
-# No startup experience required.
+# No startup experience required
 
 You'll learn step by step how to build an 8 figure business from zero. We'll guide you on finding co-founders, ideation, product, sales, marketing + more.
 
@@ -10,7 +10,7 @@ You'll learn step by step how to build an 8 figure business from zero. We'll gui
 
 You can participate in the program whilst studying or working
 
-# Startups are not risky.
+# Startups are not risky
 
 Everyone we know who's worked 10 years on building startups is making at least $500,000 USD in profit. Startups fail because people quit.
 <br/>
@@ -28,4 +28,4 @@ We've spent the last 15 years studying 1,000+ startup resources, battle testing 
 Other startup courses will tell you what to do on a high level. Athena.vc shows you exactly how to do it step by step.
 
 <br/>
-[View the curricullum ->]('https://www.evernote.com/shard/s514/client/snv?isnewsnv=true&noteGuid=f6b58f15-e295-3c4b-6c13-14875970ce53&noteKey=H0pqLWzczpRTbAQOI36Hvb1cP5H-VyODVEq348EDi-Xm4E5Zh5-TMYV1mQ&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs514%2Fsh%2Ff6b58f15-e295-3c4b-6c13-14875970ce53%2FH0pqLWzczpRTbAQOI36Hvb1cP5H-VyODVEq348EDi-Xm4E5Zh5-TMYV1mQ&title=DRAFT%2Bstartup%2Bcurriculum')
+<a href="https://www.evernote.com/shard/s514/client/snv?isnewsnv=true&noteGuid=f6b58f15-e295-3c4b-6c13-14875970ce53&noteKey=H0pqLWzczpRTbAQOI36Hvb1cP5H-VyODVEq348EDi-Xm4E5Zh5-TMYV1mQ&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs514%2Fsh%2Ff6b58f15-e295-3c4b-6c13-14875970ce53%2FH0pqLWzczpRTbAQOI36Hvb1cP5H-VyODVEq348EDi-Xm4E5Zh5-TMYV1mQ&title=DRAFT%2Bstartup%2Bcurriculum">View the curriculum</a>
