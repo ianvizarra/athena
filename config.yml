@@ -34,7 +34,7 @@ quality: 100
 
 # Delay between frames in ms
 # If the value is `auto` use the actual recording delays
-frameDelay: 120
+frameDelay: auto
 
 # Maximum delay between frames in ms
 # Ignored if the `frameDelay` isn't set to `auto`
@@ -47,7 +47,7 @@ maxIdleTime: 2000
 # Don't forget to add a backgroundColor style with a null as type
 frameBox:
   type: floating
-  title: Athena.VC
+  title: Terminalizer
   style:
     border: 0px black solid
     # boxShadow: none
@@ -73,35 +73,35 @@ cursorStyle: block
 # Font family
 # You can use any font that is installed on your machine
 # in CSS-like syntax
-fontFamily: 'Monaco, Lucida Console, Ubuntu Mono, Monospace'
+fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
 
 # The size of the font
-fontSize: 14
+fontSize: 12
 
 # The height of lines
-lineHeight: 3
+lineHeight: 1
 
 # The spacing between letters
 letterSpacing: 0
 
 # Theme
 theme:
-  background: 'transparent'
-  foreground: '#afafaf'
-  cursor: '#c7c7c7'
-  black: '#232628'
-  red: '#fc4384'
-  green: '#b3e33b'
-  yellow: '#ffa727'
-  blue: '#75dff2'
-  magenta: '#ae89fe'
-  cyan: '#708387'
-  white: '#d5d5d0'
-  brightBlack: '#626566'
-  brightRed: '#ff7fac'
-  brightGreen: '#c8ed71'
-  brightYellow: '#ebdf86'
-  brightBlue: '#75dff2'
-  brightMagenta: '#ae89fe'
-  brightCyan: '#b1c6ca'
-  brightWhite: '#f9f9f4'
+  background: "transparent"
+  foreground: "#afafaf"
+  cursor: "#c7c7c7"
+  black: "#232628"
+  red: "#fc4384"
+  green: "#b3e33b"
+  yellow: "#ffa727"
+  blue: "#75dff2"
+  magenta: "#ae89fe"
+  cyan: "#708387"
+  white: "#d5d5d0"
+  brightBlack: "#626566"
+  brightRed: "#ff7fac"
+  brightGreen: "#c8ed71"
+  brightYellow: "#ebdf86"
+  brightBlue: "#75dff2"
+  brightMagenta: "#ae89fe"
+  brightCyan: "#b1c6ca"
+  brightWhite: "#f9f9f4"

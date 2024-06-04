@@ -17,12 +17,12 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 120
+  cols: 80
 
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 40
+  rows: 20
 
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -78,10 +78,10 @@ config:
   fontFamily: 'Monaco, Lucida Console, Ubuntu Mono, Monospace'
 
   # The size of the font
-  fontSize: 14
+  fontSize: 12
 
   # The height of lines
-  lineHeight: 3
+  lineHeight: 1
 
   # The spacing between letters
   letterSpacing: 0
@@ -113,7 +113,7 @@ records:
   - delay: 120
     content: "\e[1G\e[0K"
   - delay: 8
-    content: "\e[34mcode$ \e[39m"
+    content: "\e[34mcode $ \e[39m"
   - delay: 120
     content: 'n'
   - delay: 120
@@ -221,7 +221,7 @@ records:
   - delay: 50
     content: "\e[1G\r\n"
   - delay: 400
-    content: "\e[34mcode$ \e[39m"
+    content: "\e[34mcode $ \e[39m"
   - delay: 1000
     content: a
   - delay: 120
