@@ -247,6 +247,26 @@ records:
   - delay: 120
     content: t
   - delay: 120
+    content: ' '
+  - delay: 120
+    content: '-'
+  - delay: 120
+    content: '-'
+  - delay: 120
+    content: 'f'
+  - delay: 120
+    content: 'o'
+  - delay: 120
+    content: 'u'
+  - delay: 120
+    content: 'n'
+  - delay: 120
+    content: 'd'
+  - delay: 120
+    content: 'e'
+  - delay: 120
+    content: 'r'
+  - delay: 120
     content: "\r\n\e[?2004l\r"
   - delay: 200
     content: "\e[1G\e[1G\e[36m⠋\e[39m "
@@ -283,15 +303,15 @@ records:
   - delay: 82
     content: "\e[1G\e[0K\e[32m⠦\e[39m "
   - delay: 100
-    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mDo you want to build a Startup? \e[0m\e[2m(Y/n) \e[0m"
+    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mAre you a founder?\e[0m\e[2m(Y/n) \e[0m"
   - delay: 1020
-    content: "\e[36mY\e[39m\e[30D\e[30C"
+    content: "\e[36mY"
   - delay: 120
-    content: "\e[36me\e[39m\e[30D\e[30C"
+    content: "\e[36me"
   - delay: 120
     content: "\e[36ms\e[39m\e[30D\e[30C\r\n"
   - delay: 80
-    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mDo you know how to code? \e[0m\e[2m(Y/n) \e[0m"
+    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mDo you want to take your startup to the next level?\e[0m\e[2m(Y/n) \e[0m"
   - delay: 1320
     content: "\e[36mY\e[39m\e[30D\e[30C"
   - delay: 120
@@ -335,7 +355,7 @@ records:
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠧\e[39m "
   - delay: 23
-    content: "\e[1G\e[0K\e[?25h\e[32m\nYou're the perfect candidate for our startup accelerator!\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[1G\e[0K\e[?25h\e[32m\nJoin us for advanced mentorship: Scale with industry leaders\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
@@ -377,7 +397,7 @@ records:
   - delay: 60
     content: "\e[1G\e[0K\e[?25h"
   - delay: 26
-    content: "\e[32mWe offer up to $50,000 in funding and exclusive mentorship.\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[32mExpand your network: Access to a vast network of founders and VCs.\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
@@ -409,7 +429,7 @@ records:
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠴\e[39m "
   - delay: 200
-    content: "\e[1G\e[0K\e[?25h\e[32mApply today at \e]8;;https://www.athena.vc\a\e[34mwww.athena.vc\e[39m\e[32m\e]8;;\a\e[39m\r\n"
+    content: "\e[1G\e[0K\e[?25h\e[32mExplore more at \e]8;;https://www.athena.vc\a\e[34mwww.athena.vc\e[39m\e[32m\e]8;;\a\e[39m\r\n"
   - delay: 1200
     content: "\e[2K\e[G\e[32m?\e[39m \e[1mReady to apply?\e[22m\e[0m "
   - delay: 1020
