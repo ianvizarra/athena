@@ -1,7 +1,7 @@
 {
   "name": "athena-vc",
   "description": "We're helping 20 coders launch their first company with 12 months of mentorship from successful entrepreneurs and $10,000-$50,000 USD in funding",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "ianvizarra",
   "bin": {
     "athena": "./bin/run.js"
@@ -42,7 +42,7 @@
     "/bin",
     "/dist",
     "/oclif.manifest.json",
-    "/postinstall.js"
+    "postinstall.js"
   ],
   "homepage": "https://github.com/ianvizarra/athena",
   "keywords": [
