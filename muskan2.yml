@@ -355,7 +355,7 @@ records:
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠧\e[39m "
   - delay: 23
-    content: "\e[1G\e[0K\e[?25h\e[32m\nJoin us for advanced mentorship: Scale with industry leaders\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[1G\e[0K\e[?25h\e[32m\nScale your startup with up to $50,000 in funding\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
@@ -397,7 +397,41 @@ records:
   - delay: 60
     content: "\e[1G\e[0K\e[?25h"
   - delay: 26
-    content: "\e[32mExpand your network: Access to a vast network of founders and VCs.\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[32mGet expert mentorship from industry leaders\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠙\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠹\e[39m "
+  - delay: 80
+    content: "\e[1G\e[0K\e[32m⠸\e[39m "
+  - delay: 82
+    content: "\e[1G\e[0K\e[32m⠼\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠴\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠦\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠧\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠇\e[39m "
+  - delay: 80
+    content: "\e[1G\e[0K\e[32m⠏\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠋\e[39m "
+  - delay: 82
+    content: "\e[1G\e[0K\e[32m⠙\e[39m "
+  - delay: 80
+    content: "\e[1G\e[0K\e[32m⠹\e[39m "
+  - delay: 82
+    content: "\e[1G\e[0K\e[32m⠸\e[39m "
+  - delay: 80
+    content: "\e[1G\e[0K\e[32m⠼\e[39m "
+  - delay: 81
+    content: "\e[1G\e[0K\e[32m⠴\e[39m "
+  - delay: 60
+    content: "\e[1G\e[0K\e[?25h"
+  - delay: 200
+    content: "\e[32mAccess a vast network of founders and VCs\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
