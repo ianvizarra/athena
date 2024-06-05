@@ -1,7 +1,7 @@
 {
   "name": "athena-vc",
   "description": "We're helping 20 coders launch their first company with 12 months of mentorship from successful entrepreneurs and $10,000-$50,000 USD in funding",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "ianvizarra",
   "bin": {
     "athena": "./bin/run.js"
