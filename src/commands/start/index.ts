@@ -1,11 +1,11 @@
 import {Command} from '@oclif/core'
 import chalk from 'chalk'
 import inquirer from 'inquirer'
+import open from 'open'
 import ora from 'ora'
 import terminalLink from 'terminal-link'
-import open from 'open'
 export default class Start extends Command {
-  static override description = 'describe the command here'
+  static override description = 'Apply to Athena.vc'
 
   static override examples = ['<%= config.bin %> <%= command.id %>']
 

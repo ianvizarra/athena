@@ -35,7 +35,7 @@ Other startup courses will tell you what to do on a high level. Athena.vc shows 
 # How to install?
 
 ```sh-session
-$ npm install -g athena
+$ npm install -g athena-vc
 ```
 
 # Usage

@@ -165,9 +165,15 @@ records:
   - delay: 120
     content: e
   - delay: 120
-    content: n
+    content: 'n'
   - delay: 120
     content: a
+  - delay: 120
+    content: '-'
+  - delay: 120
+    content: 'v'
+  - delay: 120
+    content: 'c'
   - delay: 501
     content: "\r\n\e[?2004l\r"
   - delay: 377
