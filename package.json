@@ -4,7 +4,7 @@
   "version": "0.0.11",
   "author": "ianvizarra",
   "bin": {
-    "athena": "./bin/run.js"
+    "athena": "bin/run.js"
   },
   "bugs": "https://github.com/ianvizarra/athena/issues",
   "dependencies": {
@@ -67,7 +67,10 @@
       }
     }
   },
-  "repository": "ianvizarra/athena",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianvizarra/athena.git"
+  },
   "scripts": {
     "postinstall": "node postinstall.js",
     "build": "shx rm -rf dist && tsc -b",
