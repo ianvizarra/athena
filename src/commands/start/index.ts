@@ -14,13 +14,12 @@ export default class Start extends Command {
   }
 
   public async run(): Promise<void> {
-    // At some point in the future, push new questions
     console.clear()
     const funding = 50_000
     inquirer
       .prompt([
         {
-          message: 'Do you want to build a Start-up',
+          message: 'Do you want to build a Startup',
           name: 'step1',
           type: 'confirm',
         },
