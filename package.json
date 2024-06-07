@@ -1,7 +1,7 @@
 {
   "name": "athena-vc",
   "description": "We're helping 20 coders launch their first company with 12 months of mentorship from successful entrepreneurs and $10,000-$50,000 USD in funding",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "ianvizarra",
   "bin": {
     "athena": "./bin/run.js"
@@ -30,6 +30,7 @@
     "eslint-config-oclif-typescript": "^3",
     "eslint-config-prettier": "^9",
     "mocha": "^10",
+    "mock-stdin": "^1.0.0",
     "oclif": "^4",
     "shx": "^0.3.3",
     "ts-node": "^10",

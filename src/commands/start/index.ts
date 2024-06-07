@@ -30,7 +30,7 @@ export default class Start extends Command {
         },
       ])
 
-      .then((answers) => {
+      .then(() => {
         const spinner = ora().start()
         spinner.color = 'green'
         setTimeout(() => {
