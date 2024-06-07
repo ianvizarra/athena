@@ -17,12 +17,12 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 80
+  cols: 50
 
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 20
+  rows: 10
 
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -78,7 +78,7 @@ config:
   fontFamily: 'Monaco, Lucida Console, Ubuntu Mono, Monospace'
 
   # The size of the font
-  fontSize: 24
+  fontSize: 68
 
   # The height of lines
   lineHeight: 1
@@ -141,19 +141,7 @@ records:
   - delay: 120
     content: '-'
   - delay: 120
-    content: '-'
-  - delay: 120
     content: g
-  - delay: 120
-    content: l
-  - delay: 120
-    content: o
-  - delay: 120
-    content: b
-  - delay: 120
-    content: a
-  - delay: 120
-    content: l
   - delay: 120
     content: ' '
   - delay: 120
@@ -165,9 +153,15 @@ records:
   - delay: 120
     content: e
   - delay: 120
-    content: n
+    content: 'n'
   - delay: 120
     content: a
+  - delay: 120
+    content: '-'
+  - delay: 120
+    content: 'v'
+  - delay: 120
+    content: 'c'
   - delay: 501
     content: "\r\n\e[?2004l\r"
   - delay: 377
@@ -246,28 +240,8 @@ records:
     content: r
   - delay: 120
     content: t
-  - delay: 120
-    content: ' '
-  - delay: 120
-    content: '-'
-  - delay: 120
-    content: '-'
-  - delay: 120
-    content: 'f'
-  - delay: 120
-    content: 'o'
-  - delay: 120
-    content: 'u'
-  - delay: 120
-    content: 'n'
-  - delay: 120
-    content: 'd'
-  - delay: 120
-    content: 'e'
-  - delay: 120
-    content: 'r'
-  - delay: 120
-    content: "\r\n\e[?2004l\r"
+  - delay: 420
+    content: "\e[2J\e[H"
   - delay: 200
     content: "\e[1G\e[1G\e[36m⠋\e[39m "
   - delay: 82
@@ -303,21 +277,21 @@ records:
   - delay: 82
     content: "\e[1G\e[0K\e[32m⠦\e[39m "
   - delay: 100
-    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mAre you a founder?\e[0m\e[2m(Y/n) \e[0m"
+    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mAre you a founder?\e[0m\e[2m (Y/n) \e[0m"
   - delay: 1020
     content: "\e[36mY"
   - delay: 120
-    content: "\e[36me"
+    content: 'e'
   - delay: 120
-    content: "\e[36ms\e[39m\e[30D\e[30C\r\n"
+    content: "s\e[30C\r\n"
   - delay: 80
-    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mDo you want to take your startup to the next level?\e[0m\e[2m(Y/n) \e[0m"
+    content: "\e[1G\e[0K\e[32m?\e[39m \e[1mDo you want to take your startup to the next \r\n\e[1G\e[0K\e[39mlevel?\e[0m\e[2m (Y/n) \e[0m"
   - delay: 1320
-    content: "\e[36mY\e[39m\e[30D\e[30C"
+    content: "\e[36mY"
   - delay: 120
-    content: "\e[36me\e[39m\e[30D\e[30C"
+    content: 'e'
   - delay: 120
-    content: "\e[36ms\e[39m\e[30D\e[30C\r\n"
+    content: "s\e[30C\r\n"
   - delay: 80
     content: "\e[?25l\e[1G\e[1G\e[36m⠋\e[39m "
   - delay: 82
@@ -355,7 +329,7 @@ records:
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠧\e[39m "
   - delay: 23
-    content: "\e[1G\e[0K\e[?25h\e[32m\nScale your startup with up to $50,000 in funding\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[1G\e[0K\e[?25h\e[32m\n> Scale your startup with up to $50,000 in funding\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
@@ -397,7 +371,7 @@ records:
   - delay: 60
     content: "\e[1G\e[0K\e[?25h"
   - delay: 26
-    content: "\e[32mGet expert mentorship from industry leaders\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[32m> Get expert mentorship from industry leaders\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
@@ -431,7 +405,7 @@ records:
   - delay: 60
     content: "\e[1G\e[0K\e[?25h"
   - delay: 200
-    content: "\e[32mAccess a vast network of founders and VCs\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[32m> Access a vast network of founders and VCs\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
@@ -463,7 +437,7 @@ records:
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠴\e[39m "
   - delay: 200
-    content: "\e[1G\e[0K\e[?25h\e[32mExplore more at \e]8;;https://www.athena.vc\a\e[34mwww.athena.vc\e[39m\e[32m\e]8;;\a\e[39m\r\n"
+    content: "\e[1G\e[0K\e[?25h\e[32m> Explore more at \e]8;;https://www.athena.vc\a\e[34mwww.athena.vc\e[39m\e[32m\e]8;;\a\e[39m\r\n"
   - delay: 1200
     content: "\e[2K\e[G\e[32m?\e[39m \e[1mReady to apply?\e[22m\e[0m "
   - delay: 1020

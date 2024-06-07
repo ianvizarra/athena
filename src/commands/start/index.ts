@@ -35,25 +35,25 @@ export default class Start extends Command {
         spinner.color = 'green'
         setTimeout(() => {
           spinner.stop()
-          this.info('You’re the perfect candidate for our startup accelerator!')
+          this.info('\n> You’re the perfect candidate for our startup accelerator!')
           spinner.start()
         }, 1400)
 
         setTimeout(() => {
           spinner.stop()
-          this.info(`We offer up to $${Number(funding).toLocaleString()} in funding and exclusive mentorship.`)
+          this.info(`> We offer up to $${Number(funding).toLocaleString()} in funding and exclusive mentorship.`)
           spinner.start()
         }, 3000)
 
         setTimeout(() => {
           spinner.stop()
-          this.info(`Apply today at ${terminalLink(chalk.blue('www.athena.vc'), 'https://www.athena.vc')}`)
+          this.info(`> Apply today at ${terminalLink(chalk.blue('www.athena.vc'), 'https://www.athena.vc')}`)
         }, 4300)
 
         setTimeout(() => {
           inquirer
             .prompt({
-              message: 'Ready to apply?',
+              message: '\n> Ready to apply?',
               name: 'step3',
               type: 'confirm',
             })
