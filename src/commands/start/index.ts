@@ -53,7 +53,7 @@ export default class Start extends Command {
         setTimeout(() => {
           inquirer
             .prompt({
-              message: '\n> Ready to apply?',
+              message: 'Ready to apply?',
               name: 'step3',
               type: 'confirm',
             })
