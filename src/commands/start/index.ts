@@ -15,7 +15,6 @@ export default class Start extends Command {
 
   public async run(): Promise<void> {
     console.clear()
-    const funding = 50_000
     inquirer
       .prompt([
         {
@@ -35,13 +34,13 @@ export default class Start extends Command {
         spinner.color = 'green'
         setTimeout(() => {
           spinner.stop()
-          this.info('\n> You’re the perfect candidate for our startup accelerator!')
+          this.info('\n> You\'re the perfect candidate for Athena Founders!')
           spinner.start()
         }, 1400)
 
         setTimeout(() => {
           spinner.stop()
-          this.info(`> We offer up to $${Number(funding).toLocaleString()} in funding and exclusive mentorship.`)
+          this.info(`> Learn how to build startup step by step with exclusive mentorship.`)
           spinner.start()
         }, 3000)
 
