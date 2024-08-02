@@ -17,7 +17,7 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 50
+  cols: 52
 
   # Explicitly set the number of rows
   # or use `auto` to take the current
@@ -331,7 +331,7 @@ records:
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠧\e[39m "
   - delay: 23
-    content: "\e[1G\e[0K\e[?25h\e[32m\n> You're the perfect candidate for our startup\r\n\e[1G\e[0K\e[32maccelerator!\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[1G\e[0K\e[?25h\e[32m\n> You're the perfect candidate for Athena Founders!\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
@@ -373,7 +373,7 @@ records:
   - delay: 60
     content: "\e[1G\e[0K\e[?25h"
   - delay: 26
-    content: "\e[32m> We offer up to $50,000 in funding and exclusive mentorship.\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
+    content: "\e[32m> Learn how to build startup step by step with \r\n\e[1G\e[0K\e[32mexclusive mentorship.\e[39m\r\n\e[?25l\e[1G\e[32m⠋\e[39m "
   - delay: 81
     content: "\e[1G\e[0K\e[32m⠙\e[39m "
   - delay: 81
