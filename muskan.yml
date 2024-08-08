@@ -22,7 +22,7 @@ config:
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 10
+  rows: 14
 
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -211,7 +211,7 @@ records:
   - delay: 81
     content: "\e[1G\e[0K⠼"
   - delay: 48
-    content: "\e[1G\e[0K\r\nadded 121 packages in 21s\r\n\e[1G\e[0K⠋\e[1G\e[0K\r\n\e[1G\e[0K⠋\e[1G\e[0K41 packages are looking for funding\r\n\e[1G\e[0K⠋\e[1G\e[0K  run `npm fund` for details\r\n\e[1G\e[0K⠋\e[1G\e[0K"
+    content: "\e[1G\e[0K\r\nadded 162 packages in 3s\r\n\e[1G\e[0K⠋\e[1G\e[0K"
   - delay: 50
     content: "\e[1G\r\n"
   - delay: 400
@@ -240,10 +240,8 @@ records:
     content: r
   - delay: 120
     content: t
-  - delay: 420
-    content: "\e[2J\e[H"
-  - delay: 120
-    content: "\r\e[?2004l\r"
+  - delay: 50
+    content: "\e[1G\r\n"
   - delay: 200
     content: "\e[1G\e[1G\e[36m⠋\e[39m "
   - delay: 82
@@ -414,5 +412,3 @@ records:
     content: "\e[36me"
   - delay: 120
     content: "\e[36ms\e[39m\e[30D\e[30C\r\n"
-  - delay: 1220
-    content: ' '
